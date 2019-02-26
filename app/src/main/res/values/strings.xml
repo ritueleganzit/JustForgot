@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">JustForgot</string>
+    <string name="device_admin_explanation"></string>
+    <string name="compliant"></string>
+    <string name="not_compliant"></string>
+
+</resources>

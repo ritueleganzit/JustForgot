@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="?attr/actionBarSize"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.eleganzit.justforgot.com.example.eleganzit.HomeActivity"
+    tools:showIn="@layout/activity_home">
+
+
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="#072f5f"
+        android:text="Main Content"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:focusable="false"
+        android:focusableInTouchMode="true"
+        android:textSize="16sp" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spy Camera"
+            android:textColor="#ffffff"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:layout_marginBottom="10dp"/>
+        <io.ghyeok.stickyswitch.widget.StickySwitch
+            android:id="@+id/sticky_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="250dp"
+            android:layout_centerInParent="true"
+            app:ss_animationDuration="250"
+            app:ss_iconPadding="8dp"
+            app:ss_iconSize="50dp"
+            app:ss_selectedTextSize="14sp"
+
+            app:ss_sliderBackgroundColor="#b9b9b9"
+            app:ss_switchColor="#fff"
+            app:ss_textSize="12sp"
+            app:ss_animationType="line"/>
+    </LinearLayout>
+
+</LinearLayout>
